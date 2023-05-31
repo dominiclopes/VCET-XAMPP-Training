@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<style>
+		div {
+			background-color:#d1cab8;
+			color:black;
+			padding:100px;
+			margin:auto;
+			width:30%;
+			text-align:left
+		}
+		
+		input {
+			width: 100%;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px
+		}
+		
+		button {
+			width: 100%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div>
+		<a href="index.html">HomePage</a><br>
+
+		<form id="savebirthdate" action="SavetheBirthDate.php" method="post">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname" placeholder="Your first name.." required><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname" placeholder="Your last name.." required><br>
+			<label for="birthdate">Birth date:</label><br>
+			<input type="date" id="birthdate" name="birthdate" required><br>
+			<button name="submit" type="submit">Save the birthdate</button>
+		</form>
+	</div>
+</body>
+
+</html>

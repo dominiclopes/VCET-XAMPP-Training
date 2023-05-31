@@ -1,0 +1,37 @@
+After we create a website/webapplication we would want it to be used by people across the globe. 
+For this we require a machine which would serve these requests. Requests by the users to view/use the website/webapplication. This machine is called as the web server, wouldn't we ?
+We also would require a database service, to provide us the ability to store the data we require for our website or generate from our webapplication, wouldn't we ?
+
+Before we release our website/webapplication for general use. We need to make sure if works perfectly. It is error prone.
+To test our website/webapplication on our local machines, we will use XAMPP, which will setup the webserver, the database service and the PHP interpreter(executing the server side code written in PHP)
+
+Download and Install XAMPP. 
+https://www.apachefriends.org/download.html
+Note: We are downloading the latest version of XAMPP
+The XAMPP software installed on college comuters might be an older version of the software.
+
+
+If we have completed the download and installed OR we already have XAMPP installed on our systems !
+Verify the version of Apache, PHP, Mysql/Mariadb -> Go to you XAMPP application -> Open Shell ->
+for Apache, type : httpd -v
+for PHP, type : php -v
+for mysql/mariadb, type : mysql --version
+
+
+To verify Apache Webserver is up and running, Type in your browser : localhost
+To verify Database Service is up and running, Go XAMPP control panel and click on the ADMIN button of Mysql: It opens up the phpmyadmin page
+To go to your website, in your browser type: localhost/project_folder_name_in_htdocs_folder/webpage_name
+
+
+Let's think of a Problem Statement, 
+think of any appliaction you want to create, 
+an appliaction which requires to store some data in the database
+an application which requires to get data from the database and display it to the users
+
+
+
+Conclusion:
+There are various webservers, databases, web technologies out there in the market, just try to read about them.
+Find out what interest you the most. 
+Todays, session was all about getting you started, with webserver and databases
+
